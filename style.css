@@ -26,11 +26,16 @@ h4,
   text-align: center;
 }
 
-h4 {
-  margin-left: 500px;
-  margin-right: 500px;
-  margin-top: 15px;
-  margin-bottom: 40px;
+.header-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.css-header {
+  width: 60vw;
+  height: auto;
   color: white;
   font-weight: 200;
 }
@@ -107,13 +112,13 @@ h4 {
   margin-top: 35px;
 }
 
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
   .snippet {
     width: 40%;
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .snippet {
     width: 100%;
   }
